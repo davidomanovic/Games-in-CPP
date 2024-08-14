@@ -71,9 +71,7 @@ int countChar(string str, char ch)
 			++n;
 		}
 	}
-
 	return n;
-
 	// Alternativ med STL-algoritme:
 	// return count(str.begin(), str.end(), ch);
 }
